@@ -1,0 +1,17 @@
+* {
+    color: white;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 1vh;
+    border-radius: 1vh;
+}
+.error {
+    background-color: #e53935;
+
+}
+.success {
+    background-color: #4caf50;
+}
+.info {
+    background-color: #2196f3;
+}

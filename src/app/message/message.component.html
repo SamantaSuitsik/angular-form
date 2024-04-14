@@ -1,0 +1,7 @@
+<div class="d-flex justify-content-sm-center p-3 ">
+    <div [ngClass]="{'error': this.messageType === 'error', 
+        'success': this.messageType === 'success',
+        'info': this.messageType === 'info'}">
+        <p >{{message}}</p>
+    </div>
+</div>
